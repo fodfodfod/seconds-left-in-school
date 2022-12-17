@@ -76,7 +76,6 @@ def main():
     schedule = json.loads(schedule_string)
     file.close()
 
-    print(type(schedule))
 
     later_day_seconds = 0
 
@@ -84,7 +83,7 @@ def main():
         if("Schedule" in event["summary"]):
             # if(event["start"]["date"] == str(datetime.date.today())):
             #     today_seconds += today_seconds(event["summary"][0])
-            if(event["start"]["date"] > str(datetime.date.today()) and event["start"]["date"] < str(datetime.datetime(2022, 12, 12))):
+            if(event["start"]["date"] > str(datetime.date.today()) and event["start"]["date"] < str(datetime.datetime(2023, 6, 1))):
                 later_day_seconds += count_later_seconds(event["summary"][0])
     
     while True:
@@ -98,7 +97,7 @@ def main():
                 # elif(event["start"]["date"] > str(datetime.date.today())):
                 #     later_day_seconds += later_seconds(event["summary"][0])
         total_seconds = later_day_seconds + today_seconds
-        print(f"{total_seconds}s in this semester, {today_seconds}s in this {todays_day_type} day, and the time is " + datetime.datetime.now().strftime("%I:%M:%S %p"))
+        print(f"{total_seconds}s this year, {today_seconds}s in this {todays_day_type} day, and the time is " + datetime.datetime.now().strftime("%I:%M:%S %p"))
         if one_output:
             break
         time.sleep(1)
