@@ -54,8 +54,10 @@ def count_today_seconds(todays_day_type):
         end_time = datetime.datetime(datetime.datetime.now().year, datetime.datetime.now().month, datetime.datetime.now().day, school_timings[todays_day_type][period]["end"][0], school_timings[todays_day_type][period]["end"][1])
         current_time = datetime.datetime(datetime.datetime.now().year, datetime.datetime.now().month, datetime.datetime.now().day, datetime.datetime.now().hour, datetime.datetime.now().minute, datetime.datetime.now().second)
         
+        #current period
         if(current_time > start_time and not current_time > end_time):
             seconds_remaining_today += time.mktime(end_time.timetuple()) - time.mktime(current_time.timetuple())
+        #before the period
         elif(not current_time > end_time):
             seconds_remaining_today += time.mktime(end_time.timetuple()) - time.mktime(start_time.timetuple())
     return seconds_remaining_today
