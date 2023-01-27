@@ -77,7 +77,7 @@ def get_events():
 
         # print(calendar)
     except HttpError as error:
-        print('An error occurred: %s' % error)
+        print(f'An error occurred: {error}')
 
 file = open("Schedule.json", "w")
 file.write(json.dumps(get_events()))
