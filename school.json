@@ -2,30 +2,37 @@
     "A":
     [
         {
+            "period": 1,
             "start": [8, 30],
             "end": [9, 10]
         },
         {
+            "period": 2,
             "start": [9, 15],
             "end": [9, 55]
         },
         {
+            "period": 3,
             "start": [10, 20],
             "end": [11, 0]
         },
         {
+            "period": 4,
             "start": [11, 5],
             "end": [11, 45]
         },
         {
+            "period": 5,
             "start": [13, 5],
             "end": [13, 45]
         },
         {
+            "period": 6,
             "start": [13, 50],
             "end": [14, 30]
         },
         {
+            "period": 7,
             "start": [14, 35],
             "end": [15, 15]
         }
@@ -33,30 +40,37 @@
     "E":
     [
         {
+            "period": 1,
             "start": [8, 30],
             "end": [9, 10]
         },
         {
+            "period": 2,
             "start": [9, 15],
             "end": [9, 55]
         },
         {
+            "period": 3,
             "start": [11, 0],
             "end": [11, 40]
         },
         {
+            "period": 4,
             "start": [11, 45],
             "end": [12, 25]
         },
         {
+            "period": 5,
             "start": [13, 5],
             "end": [13, 45]
         },
         {
+            "period": 6,
             "start": [13, 50],
             "end": [14, 30]
         },
         {
+            "period": 7,
             "start": [14, 35],
             "end": [15, 15]
         }
@@ -64,30 +78,37 @@
     "U":
     [
         {
+            "period": 1,
             "start": [9, 15],
             "end": [9, 55]
         },
         {
+            "period": 2,
             "start": [10, 0],
             "end": [10, 40]
         },
         {
+            "period": 3,
             "start": [11, 0],
             "end": [11, 40]
         },
         {
+            "period": 4,
             "start": [11, 45],
             "end": [12, 25]
         },
         {
+            "period": 5,
             "start": [13, 5],
             "end": [13, 45]
         },
         {
+            "period": 6,
             "start": [13, 50],
             "end": [14, 30]
         },
         {
+            "period": 7,
             "start": [14, 35],
             "end": [15, 15]
         }
@@ -95,22 +116,27 @@
     "B":
     [
         {
+            "period": 1,
             "start": [8, 30],
             "end": [9, 55]
         },
         {
+            "period": 3,
             "start": [10, 20],
             "end": [11, 0]
         },
         {
+            "period": 4,
             "start": [11, 5],
             "end": [11, 45]
         },
         {
+            "period": 5,
             "start": [13, 5],
             "end": [14, 30]
         },
         {
+            "period": 6,
             "start": [14, 35],
             "end": [15, 15]
         }
@@ -118,20 +144,24 @@
     "C":
     [
         {
+            "period": 2,
             "start": [8, 30],
             "end": [9, 55]
         },
         {
+            "period": 3,
             "start": [10, 20],
             "end": [11, 45]
         },
 
         {
+            "period": 6,
             "start": [13, 5],
             "end": [14, 30]
         },
 
         {
+            "period": 7,
             "start": [14, 35],
             "end": [15, 15]
         }
@@ -139,22 +169,27 @@
     "D":
     [
         {
+            "period": 1,
             "start": [8, 30],
             "end": [9, 10]
         },
         {
+            "period": 2,
             "start": [9, 15],
             "end": [9, 55]
         },
         {
+            "period": 4,
             "start": [10, 20],
             "end": [11, 45]
         },
         {
+            "period": 5,
             "start": [13, 5],
             "end": [13, 45]
         },
         {
+            "period": 7,
             "start": [13, 50],
             "end": [15, 15]
         }
