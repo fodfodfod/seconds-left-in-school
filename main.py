@@ -133,7 +133,7 @@ def main():
                 #     later_day_seconds += later_seconds(event["summary"][0])
         total_seconds = later_day_seconds + today_seconds
         total_chem_seconds = today_chem_settings + chem_settings
-        print(f"{total_seconds}s this year, {today_seconds}s in this {todays_day_type} day, there are {total_chem_seconds}, and the time is " + datetime.datetime.now().strftime("%I:%M:%S %p"))
+        print(f"{total_seconds}s this year, {today_seconds}s in this {todays_day_type} day, there are {total_chem_seconds}, and the time is " + datetime.datetime.now().strftime("%I:%M:%S %p"), end="\r")
         if one_output:
             break
         time.sleep(1)
